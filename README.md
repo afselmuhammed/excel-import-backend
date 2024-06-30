@@ -19,32 +19,33 @@ Copy code
 cd csv-import-laravel
 Install Composer Dependencies:
 
-bash
-Copy code
 **composer install**
+
 Set Up Environment Variables:
 
 **Rename .env.example to .env.**
+
 Configure your database settings in the .env file.
 
 Generate Application Key:
 **php artisan key:generate**
+
+
 Run Migrations:
-
 **php artisan migrate**
-Start Development Server:
 
+Start Development Server:
 **php artisan serve**
 
 Usage
 Upload CSV File:
 
-Navigate to the application registration page and resgister as an user.
+Navigate to the application registration page and register as an user.
 Login as user 
-Use the file upload form to select and upload a CSV file.
+Use the file upload button to select and upload a CSV file.
 Import Data:
 
 Once the file is uploaded, the application will validate and import the CSV data into the database.
 Check the import status and any errors encountered during the process.
-Example CSV File Format
+Example CSV File Format added with file
 
